@@ -1,0 +1,1049 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*------- CSS FOR HOW IT WORKS BUTTON --------*/
+
+#square {
+  background-color: #f7d053;
+  width: 150px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+  margin-left: 65px;
+  margin-top: -20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 13px;
+  border-radius: 10px;
+  position: fixed;
+}
+
+#square:hover{
+  transform: translateY(10px);
+  transition: all 0.2s linear;
+  color: black;
+}
+
+#square{
+animation: fadeIn 1.3s;
+
+}
+
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+/*------------CSS FOR radio buttons columns female/male--------------*/
+
+#firstSentence {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+  background-color: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 20px;
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  right: -300px;
+  margin-top: -20px;
+  -webkit-animation: mymove2 1s forwards; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+  animation: mymove2 1s forwards;
+  animation-delay: 4.5s;
+  }
+
+  @-webkit-keyframes mymove2 {
+    from {right: -250px;}
+    to {right: -11px;}
+  }
+
+  @keyframes mymove2 {
+    from {right: -250px;}
+    to {right: -11px;}
+  }
+
+
+
+@keyframes fadeInOut1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+td.radioButtonColumn1{
+  text-align: center;
+  padding-left: 90px;
+  padding-right: -10px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  opacity: 0;
+  animation: fadeInOut1 1.5s ease-in-out 3s forwards;
+  animation-delay: 4.5s;
+}
+td.radioButtonColumn2{
+  text-align: center;
+  padding-right: 155px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  opacity: 0;
+  animation: fadeInOut1 1.5s ease-in-out 3s forwards;
+  animation-delay: 4.5s;
+}
+
+#radioStyle1{
+  visibility: hidden;
+}
+
+#radioStyle2{
+  visibility: hidden;
+}
+
+a.initOption0{
+  margin-left: 20px;
+  font-family: Proxima Nova;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+ a.initOption0 {
+  position: relative;
+  color: #000000;
+  text-decoration: none;
+}
+
+a.downOption0{
+  margin-left: 20px;
+  font-family: Proxima Nova;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+ a.downOption0 {
+  position: relative;
+  color: #000000;
+  text-decoration: none;
+}
+
+a.downOption0:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffffff;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+a.initOption0:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffffff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a.initOption0:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+/* ---- */
+
+a.initOption1{
+  margin-left: 20px;
+  font-family: Proxima Nova;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+ a.initOption1 {
+  position: relative;
+  color: #000000;
+  text-decoration: none;
+}
+
+a.downOption1{
+  margin-left: 20px;
+  font-family: Proxima Nova;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+ a.downOption1 {
+  position: relative;
+  color: #000000;
+  text-decoration: none;
+}
+
+a.downOption1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffffff;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+a.initOption1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffffff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a.initOption1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*------------CSS FOR MORE INFO SECTION--------------*/
+
+#moreInfoSection{
+  margin-top: -20px;
+  margin-left: -550px;
+  width: 260px;
+  height: 322px;
+  border-radius: 10px;
+  background-color: white;
+  position: fixed;
+  transform: translateX(5px);
+  transition: all 0.4s ease-in-out 0.05s;
+}
+
+
+.moreInfoText{
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 20px;
+}
+
+.moreInfoText1{
+  color: #f4bb06;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 14px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-left: 28px;
+  margin-right: 13px;
+}
+/*---------------------------*/
+
+/* Main Title CSS*/
+
+.TitleDiv{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.animate {
+  position: relative;
+  color: transparent;
+  padding: 7px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 1px;
+  animation: textappear .2s .5s forwards;
+}
+.animate::before {
+  content: '';
+  position: absolute;
+  background: #eae9e8;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+.right::before {
+  animation: sliderRight 3s forwards;
+}
+.left::before {
+  animation: sliderLeft 3s forwards;
+}
+@keyframes textappear {
+  100% {
+    color: #000000;
+  }
+}
+@keyframes sliderRight {
+  0% {
+    right: 100%;
+  }
+  100% {
+    right: -100%;
+  }
+}
+@keyframes sliderLeft {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.animate {
+  white-space: nowrap;
+}
+h1.animate {
+  font-size: 35px;
+  letter-spacing: 4px;
+  font-family: 'Lato', sans-serif;
+}
+
+p.animate {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 100px;
+  background-color: #eae9e8;
+  overflow-x: hidden;
+}
+
+/* CSS FOR type of shoe question 1 */
+
+#typeID{
+  display: none;
+}
+
+.typeQuestion {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+  background-color: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 30px;
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  right: -300px;
+  margin-top: 10px;
+  -webkit-animation: mymove1 1s forwards; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+  animation: mymove1 1s forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes mymove1 {
+    from {right: -250px;}
+    to {right: -20px;}
+}
+
+@keyframes mymove1 {
+    from {right: -250px;}
+    to {right: -20px;}
+}
+
+/* CSS FOR SNEAKER ICON SVG */
+
+.st0:hover{
+  fill:#f9d05d;
+}
+
+#sneakerIcon{
+  width: 100px;
+  transition: all .2s ease-in-out;
+  display: none;
+}
+
+#sneakerIcon:hover{
+  transform: scale(1.2);
+}
+
+/* CSS FOR WINTER BOOT ICON SVG */
+
+.st0v2:hover{
+  fill:#f9d05d;
+}
+
+#winterIcon{
+  width: 100px;
+  transition: all .2s ease-in-out;
+  display: none;
+}
+
+#winterIcon:hover{
+  transform: scale(1.2);
+}
+
+/* CSS FOR SUMMER SHOES ICON SVG */
+.st0v3:hover{
+  fill:#f9d05d;
+}
+
+#summerIcon{
+  width: 100px;
+  transition: all .2s ease-in-out;
+  display: none;
+}
+
+#summerIcon:hover{
+  transform: scale(1.2);
+}
+
+/* -------HOVER IMAGES 1----- */
+
+#hoverImages1{
+  display: none;
+  width: 170px;
+}
+
+#hoverImages2{
+  display: none;
+  width: 170px;
+}
+
+#hoverImages3{
+  display: none;
+  width: 170px;
+  padding-left: -200px;
+}
+
+
+/* -------Aligning the table and the div of the first section of icons ------- */
+
+.topSectionDiv {
+  text-align: center;
+}
+
+.topSectionTable{
+  margin:1em auto;
+}
+
+.topSectionTable1{
+  width: 700px;
+  margin:1em auto;
+}
+
+.boxes{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* arch question div */
+
+#archID {
+  display: none;
+}
+
+.archQuestion {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+  background-color: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 30px;
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 15px;
+  margin-right: 0px;
+  right: -300px;
+  -webkit-animation: mymove 1s forwards; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+  animation: mymove 1s forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes mymove {
+    from {right: -250px;}
+    to {right: -20px;}
+}
+
+@keyframes mymove {
+    from {right: -250px;}
+    to {right: -20px;}
+}
+
+/* arch hover icons ----- */
+#arch1{
+  width: 120px;
+  transition: all .2s ease-in-out;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+#arch1:hover{
+  transform: scale(1.2);
+}
+
+#arch2{
+  width: 120px;
+  transition: all .2s ease-in-out;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+#arch2:hover{
+  transform: scale(1.2);
+}
+
+#arch3{
+  width: 120px;
+  transition: all .2s ease-in-out;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+#arch3:hover{
+  transform: scale(1.2);
+}
+
+#arch4{
+  width: 120px;
+  transition: all .2s ease-in-out;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+#arch4:hover{
+  transform: scale(1.2);
+}
+
+/* ---- LINE ARCH INFO ---*/
+
+#archLine1{
+  visibility: hidden;
+  width: 2px;
+  height: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#archLine2{
+  visibility: hidden;
+  width: 2px;
+  height: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#archLine3{
+  visibility: hidden;
+  width: 2px;
+  height: 150px;
+  padding-left: 10px;
+  padding-right: 14px;
+}
+
+#archInfo1 {
+  visibility: hidden;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 16px;
+  font-size: 12px;
+  color: #bfbdb8;
+  width: 110px;
+  padding-left: 10px;
+  padding-right: 8px;
+  overflow: hidden;
+}
+
+#archInfo2 {
+  visibility: hidden;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 16px;
+  font-size: 12px;
+  color: #bfbdb8;
+  width: 110px;
+  padding-left: 10px;
+  padding-right: 10px;
+ overflow: hidden;
+}
+
+#archInfo3 {
+  visibility: hidden;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 16px;
+  font-size: 12px;
+  color: #bfbdb8;
+  width: 110px;
+  margin-top: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+ overflow: hidden;
+}
+
+#archInfo4 {
+  visibility: hidden;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  margin-top: -8px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #bfbdb8;
+  width: 110px;
+  padding-left: 10px;
+  padding-right: 10px;
+ overflow: hidden;
+}
+
+#titleArch {
+  letter-spacing: 2px;
+  color: #000000;
+  font-family: Proxima Nova;
+}
+
+#archTip1{
+  visibility: hidden;
+  width: 110px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 15px;
+  font-size: 10px;
+  color: #000000;
+  padding-right: 25px;
+  margin-left: -10px;
+}
+#archTip2{
+  visibility: hidden;
+  width: 110px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 15px;
+  font-size: 10px;
+  color: #000000;
+  padding-right: 35px;
+  padding-left: 10px;
+}
+#archTip3{
+  visibility: hidden;
+  width: 110px;
+  margin-top: -15px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 15px;
+  font-size: 10px;
+  color: #000000;
+  padding-right: 45px;
+  padding-left: 15px;
+}
+#archTip4{
+  visibility: hidden;
+  margin-top: -5px;
+  width: 110px;
+  line-height: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 15px;
+  font-size: 10px;
+  color: #000000;
+  padding-right: 25px;
+}
+
+#tipsDiv{
+  margin-right: -30px;
+}
+
+#tipsDiv1{
+  margin-right: -25px;
+}
+/* ---- Alignment Icons ---*/
+
+#alignIcon1 {
+  display: none;
+  width: 110px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 30px;
+  transition: all .2s ease-in-out;
+}
+
+.st0al1:hover {
+  fill: #f7d053;
+}
+
+#alignIcon1:hover{
+  transform: scale(1.2);
+}
+
+#alignIcon2 {
+  display: none;
+  width: 110px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 30px;
+  transition: all .2s ease-in-out;
+}
+
+#alignIcon2:hover{
+  transform: scale(1.2);
+}
+
+.st0al2:hover {
+  fill: #f7d053;
+}
+
+#alignIcon3 {
+  display: none;
+  width: 110px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 30px;
+  transition: all .2s ease-in-out;
+}
+
+#alignIcon3:hover{
+  transform: scale(1.2);
+}
+
+.st0al3:hover {
+  fill: #f7d053;
+}
+
+/* foot alignment question div */
+
+#alignID {
+  display: none;
+}
+
+.alignQuestion {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+  background-color: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 30px;
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 30px;
+  margin-right: 0px;
+  right: -300px;
+  -webkit-animation: mymoveA 1s forwards; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+  animation: mymoveA 1s forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes mymoveA {
+    from {right: -250px;}
+    to {right: -20px;}
+}
+
+@keyframes mymoveA {
+    from {right: -250px;}
+    to {right: -20px;}
+}
+
+#alignLine1 {
+  visibility: hidden;
+  width: 2px;
+  height: 150px;
+  padding-left: 30px;
+  padding-right: 45px;
+}
+
+#alignLine2 {
+  visibility: hidden;
+  width: 2px;
+  height: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#titleAlign {
+  letter-spacing: 2px;
+  font-family: Proxima Nova;
+  color: #000000;
+}
+
+#alignInfo1 {
+  visibility: hidden;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 16px;
+  font-size: 12px;
+  color: #bfbdb8;
+  width: 130px;
+  padding-left: 10px;
+  padding-right: 5px;
+  overflow: hidden;
+}
+
+#alignInfo2 {
+  visibility: hidden;
+  margin-top: -15px;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 16px;
+  font-size: 12px;
+  color: #bfbdb8;
+  width: 130px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+#alignInfo3 {
+  visibility: hidden;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  text-align:left;
+  line-height: 16px;
+  font-size: 12px;
+  color: #bfbdb8;
+  width: 130px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+/* ---- LAST table!!! tableFinal ---*/
+
+.topSectionTableFinal{
+  margin:1em auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* ---- submit buttons */
+
+#submitButton1{
+  visibility: hidden;
+  font-size: 12px;
+  background-color: #f7d053;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 140px;
+  letter-spacing: 2px;
+  border-radius: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  transition: all .1s ease-in-out;
+}
+
+#submitButton1:hover{
+  transform: scale(1.1);
+  color: black;
+  background-color: white;
+}
+
+#submitButton2{
+  visibility: hidden;
+  font-size: 12px;
+  background-color: #f7d053;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 140px;
+  letter-spacing: 2px;
+  border-radius: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  transition: all .1s ease-in-out;
+}
+
+#submitButton2:hover{
+  transform: scale(1.1);
+  color: black;
+  background-color: white;
+}
+
+
+
+/* ---- LAST ANIMATION ---*/
+
+#lineTester{
+  width: 300px;
+  background-color: white;
+}
+
+.tester .st0v4{
+  animation-name: dash;
+  animation-duration: 10s;
+  stroke-dasharray: 11000;
+  stroke-dashoffset: 0;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+.tester:hover .st0v4{
+  animation-play-state: running;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 11000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* ---- Feet img 1 ---*/
+
+#TableFlatFeetWomen{
+  display: none;
+  margin:1em auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 600px;
+}
+
+#TableArchedFeetWomen{
+  display: none;
+  margin:1em auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#TableNormalFeetWomen{
+  display: none;
+  margin:1em auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#TableFlatFeetMen{
+  display: none;
+  margin:1em auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#TableArchedFeetMen{
+  display: none;
+  margin:1em auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#TableNormalFeetMen{
+  display: none;
+  margin:1em auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#feetImg1{
+  width: 200px;
+}
+
+#brandNames{
+  text-align: left;
+  padding-left: 80px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+#summaryInfo{
+  padding-top: 50px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 15px;
+}
+
+#names{
+  color: #ffbc00;
+}
+
+#finalTables{
+  margin-right: -60px;
+  display: inline-block;
+  text-align: center;
+  width: 600px;
+}
+
+#lineInfof{
+  border-style: dashed;
+  border-color: #ffbc00;
+}
