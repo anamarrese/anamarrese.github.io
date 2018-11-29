@@ -83,7 +83,7 @@ function mouseOver6(){
 
 function firstSectionDisplay(){
   hoverFirstSection = false;
-  window.scrollTo(0, 500);
+  window.scrollTo(0, 400);
   document.getElementById("hoverImages1").style.display = "inline";
   document.getElementById("hoverImages2").style.display = "inline";
   document.getElementById("hoverImages3").style.display = "inline";
@@ -147,6 +147,7 @@ function arch4Hide(){
 
 function archClicked(){
   hoverSecondSection = false;
+  window.scrollTo(0, 750);
   document.getElementById("archLine1").style.visibility = "visible";
   document.getElementById("archLine2").style.visibility = "visible";
   document.getElementById("archLine3").style.visibility = "visible";
@@ -205,6 +206,7 @@ function align3Hide(){
 }
 
 function alignClickedNeutral(){
+  window.scrollTo(0, 1100);
   hoverThirdSection = false;
   document.getElementById("alignLine1").style.visibility = "visible";
   document.getElementById("alignLine2").style.visibility = "visible";
@@ -222,6 +224,7 @@ function alignClickedNeutral(){
 }
 
 function alignClickedOver(){
+  window.scrollTo(0, 1100);
   hoverThirdSection = false;
   document.getElementById("alignLine1").style.visibility = "visible";
   document.getElementById("alignLine2").style.visibility = "visible";
@@ -239,6 +242,7 @@ function alignClickedOver(){
 }
 
 function alignClickedUnder(){
+  window.scrollTo(0, 1040);
   hoverThirdSection = false;
   document.getElementById("alignLine1").style.visibility = "visible";
   document.getElementById("alignLine2").style.visibility = "visible";
@@ -286,6 +290,8 @@ function displayResult(){
     document.getElementById("TableArchedFeetMen").style.display = "inline";
     }
   }
+
+  window.scrollTo(0, 1520);
 }
 
 
