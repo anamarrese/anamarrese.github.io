@@ -239,10 +239,10 @@ function alignClickedOver(){
     underpronation = false;
     enterStatement = false;
   }
+  window.scrollTo(0, 1100);
 }
 
 function alignClickedUnder(){
-  window.scrollTo(0, 1040);
   hoverThirdSection = false;
   document.getElementById("alignLine1").style.visibility = "visible";
   document.getElementById("alignLine2").style.visibility = "visible";
@@ -257,6 +257,7 @@ function alignClickedUnder(){
     underpronation = true;
     enterStatement = false;
   }
+  window.scrollTo(0, 1040);
 }
 
 //alerting final result depending on pronation severity and gender
